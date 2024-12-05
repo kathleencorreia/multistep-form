@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLess } from "react-icons/fa";
 
 function UserForm({data, updateFieldHandler}) {
   return (
@@ -12,6 +13,7 @@ function UserForm({data, updateFieldHandler}) {
         required
         value={data.name || ""}
         onChange={(e) => updateFieldHandler("name", e.target.value)}
+        tabIndex={-1}
       /> 
       <label htmlFor="email">E-mail: </label>
       <input

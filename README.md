@@ -1,4 +1,4 @@
-# Formulário com Multi-Steps em React (Vite)
+# Formulário com Multi-Steps em React (Vite) - iniciante
 
 Este é um projeto React que demonstra um formulário com vários passos (multi-steps). Ele foi desenvolvido usando Vite como bundler e JavaScript como linguagem principal.
 
@@ -7,12 +7,13 @@ Este é um projeto React que demonstra um formulário com vários passos (multi-
 1. **Instalação das Dependências**
 
    Antes de executar o projeto, certifique-se de ter o Node.js e o npm instalados em seu sistema. Em seguida, instale as dependências do projeto executando:
-
+   - baixar e instalar o Node.js através do site oficial: https://nodejs.org/
+   - npm install
 
 2. **Execução do Servidor de Desenvolvimento**
 
 Após instalar as dependências, você pode iniciar o servidor de desenvolvimento usando o seguinte comando:
-
+- npm run dev
 
 Isso iniciará o servidor de desenvolvimento e abrirá o projeto no seu navegador padrão. Qualquer alteração que você fizer nos arquivos será automaticamente recarregada no navegador.
 

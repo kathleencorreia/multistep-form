@@ -6,7 +6,6 @@ export function UseForm(steps) {
   function changeStep(i, e){
     if (e) e.preventDefault();
 
-
     if(i<0 || i>=steps.length) return//passo maior que zero e passo até o tamanho do array
 
     setCurrentStep(i)
